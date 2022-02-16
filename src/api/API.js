@@ -1,4 +1,4 @@
-const BASE_API ='http://localhost:1337/api/';
+const BASE_API ='http://20.127.125.101:1337/api/';
 
 const DO_REQUEST = async(SECTION) => {
     try {
