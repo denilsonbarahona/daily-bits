@@ -1,9 +1,9 @@
 import React,{useContext} from "react";
-import Button from '../../components/button'
-import PanelAlert from '../../Containers/alert'
-import NotificationTitle from '../../Containers/alert/notification';
-import AppContext from "../../context"; 
-import {colorThemes, alertThemes} from '../../themes/themes'; 
+import Button from '@components/button'
+import PanelAlert from '@containers/alert'
+import NotificationTitle from '@containers/alert/notification';
+import AppContext from "@context"; 
+import {colorThemes, alertThemes} from '@themes/themes'; 
 
 const ActionDisplay =({answerState, setAnswer})=>{
 

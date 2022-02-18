@@ -1,11 +1,11 @@
 import React, {useContext, useEffect} from "react";
-import Page from "../../layouts/page";
-import Main from "../../layouts/main";
-import HeaderProgress from "../../Containers/header-progress"
-import QuestionAnswerContainer from "../../Containers/question"; 
+import Page from "@layouts/page";
+import Main from "@layouts/main";
+import HeaderProgress from "@containers/header-progress"
+import QuestionAnswerContainer from "@containers/question"; 
 import { useParams   } from 'react-router-dom';
-import AppContext from "../../context";
-import { GET_QUESTIONS } from "../../reducers/actions";
+import AppContext from "@context";
+import { GET_QUESTIONS } from "@reducers/actions";
 import { Helmet } from "react-helmet";
 
 

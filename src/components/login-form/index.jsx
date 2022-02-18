@@ -1,6 +1,6 @@
 import React, {useContext, useRef} from 'react';
 import {Form, Input, Label, Button, Logo} from './styles';
-import AppContext, {SessionContext} from '../../context'; 
+import AppContext, {SessionContext} from '@context'; 
 import { useNavigate } from 'react-router-dom';
 
 const LoginForm=()=>{

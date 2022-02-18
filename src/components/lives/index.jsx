@@ -1,9 +1,9 @@
 import React from "react";
-import Icon from "../icons";
+import Icon from "@components/icons";
 import {LivesContainer, LivesCounter} from './styles'
 
 import { useContext } from "react";
-import AppContext from "../../context";
+import AppContext from "@context";
 
 const Lives = ()=>{
 

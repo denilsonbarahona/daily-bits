@@ -1,6 +1,6 @@
 import React from 'react';
-import Progress from '../progress';
-import {Container, CircularContainer, Image} from '../categories/styles';
+import Progress from '@components/progress';
+import {Container, CircularContainer, Image} from '@components/categories/styles';
 import { useLocation } from "react-router-dom";
 
 

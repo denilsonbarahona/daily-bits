@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import {BarSvg, Rect, CircleSvg, CircleInner, CircleOuter, ProgressContainer} from './styles'
-import CircularProgress from "../../utils/init-circular-progress";
+import CircularProgress from "@utils/init-circular-progress";
 
 const Progress =({type, progress})=>{
 

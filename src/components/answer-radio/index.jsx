@@ -1,7 +1,7 @@
 import React from "react";
-import {icons} from '../../utils/set-icons'
+import {icons} from '@utils/set-icons'
 import {StyledRadio, StyledLabel} from './styles';  
-import { iconThemes, colorThemes } from "../../themes/themes.js";
+import { iconThemes, colorThemes } from "@themes/themes.js";
 
 const RadioAnswer =( {option,  setAnswer, answerState})=>{
 

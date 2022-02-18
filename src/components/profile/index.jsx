@@ -1,6 +1,6 @@
 import React,{useContext} from "react";
 import {ProfileContainer, ProfileName, ProfileEmail, LogOutButton, ImageProfile} from './styles'
-import { SessionContext } from "../../context";
+import { SessionContext } from "@context";
 
 
 const Profile =()=>{

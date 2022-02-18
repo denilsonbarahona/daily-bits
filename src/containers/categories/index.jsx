@@ -1,8 +1,8 @@
 import React,{useContext} from "react";
 import { useNavigate } from "react-router-dom";
-import Categories from '../../components/categories';
+import Categories from '@components/categories';
 import {Container} from './styles';
-import AppContext from "../../context";
+import AppContext from "@context";
 
 const CategoriesContainer =()=>{
     const {state} = useContext(AppContext)

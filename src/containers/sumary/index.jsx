@@ -1,6 +1,6 @@
 import React from "react";
-import SumaryItem from "../../components/sumary-item";
-import HighLight from "../../components/highlights";
+import SumaryItem from "@components/sumary-item";
+import HighLight from "@components/highlights";
 import { SumaryUl } from "./styles";
 
 const Sumary =()=>{

@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
-import Progress from '../../components/progress';
-import Lives from '../../components/lives';
-import AppContext from '../../context'
+import Progress from '@components/progress';
+import Lives from '@components/lives';
+import AppContext from '@context'
 import {HeaderContainer} from './styles'
 
 

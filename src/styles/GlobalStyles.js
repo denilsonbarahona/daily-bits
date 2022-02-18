@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
-import IconMoonEot from '../assets/fonts/icomoon.eot';
-import IconMoonttf from '../assets/fonts/icomoon.ttf';
-import IconMoonWoff from '../assets/fonts/icomoon.woff'; 
+import IconMoonEot from '@assets/fonts/icomoon.eot';
+import IconMoonttf from '@assets/fonts/icomoon.ttf';
+import IconMoonWoff from '@assets/fonts/icomoon.woff'; 
 
 export const GlobalStyles = createGlobalStyle`
     :root {

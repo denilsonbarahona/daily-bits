@@ -1,10 +1,10 @@
 import React,{useContext, useEffect} from "react";
-import CategoriesContainer from '../../Containers/categories';
-import Menu from '../../components/menu';
-import Main from '../../layouts/main'
-import Page from '../../layouts/page'
-import AppContext from "../../context";
-import { GET_CATEGORIES } from "../../reducers/actions";
+import CategoriesContainer from '@containers/categories';
+import Menu from '@components/menu';
+import Main from '@layouts/main'
+import Page from '@layouts/page'
+import AppContext from "@context";
+import { GET_CATEGORIES } from "@reducers/actions";
 import Helmet from "react-helmet";
 import {Title} from './styles'
 

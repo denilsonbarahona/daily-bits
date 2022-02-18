@@ -1,5 +1,5 @@
 import React, { useRef} from 'react';
-import {Button} from '../answer-button/styles'
+import {Button} from '@components/answer-button/styles'
 
 const ArrangeItem =({option, partnerRef, setAnswer, answerState})=>{
     const ref = useRef(null)

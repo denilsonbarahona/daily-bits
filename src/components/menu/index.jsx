@@ -1,6 +1,6 @@
 import React from "react";
-import MenuItem from '../menu-item'
-import Icon from '../icons';
+import MenuItem from '@components/menu-item'
+import Icon from '@components/icons';
 import { useLocation } from "react-router-dom";
 import {StyledList, NavStyled} from './style';
 

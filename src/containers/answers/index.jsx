@@ -1,5 +1,5 @@
 import React,{useRef} from "react";
-import ActionDisplay from "../../layouts/accion-display";
+import ActionDisplay from "@layouts/accion-display";
 
 const Answers =({Layout, Component, Partner, items })=>{
 

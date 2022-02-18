@@ -1,14 +1,14 @@
 import React, {useContext} from "react";
-import { GlobalStyles } from './styles/GlobalStyles';
+import { GlobalStyles } from '@styles/GlobalStyles';
 import {Routes, Route, BrowserRouter, Navigate} from 'react-router-dom'
-import Home from './pages/Home'
-import Game from './pages/game'
-import Statistics from './pages/statistics'
-import ProfilePage from './pages/profile'
-import Login from "./pages/login";
-import AppContext, {SessionContext} from "./context";
-import useInitialState from "./custom-hooks/useInitialState";
-import useLocalSessionStorage from "./custom-hooks/useLocalSessionStorage";
+import Home from '@pages/Home'
+import Game from '@pages/game'
+import Statistics from '@pages/statistics'
+import ProfilePage from '@pages/profile'
+import Login from "@pages/login";
+import AppContext, {SessionContext} from "@context";
+import useInitialState from "@customHooks/useInitialState";
+import useLocalSessionStorage from "@customHooks/useLocalSessionStorage";
 
 const PrivateRoute =({children, isloginPath})=>{
 

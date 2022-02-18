@@ -1,6 +1,6 @@
-import RadioAnswer from '../../components/answer-radio';
-import ArrangeItem from "../../components/answer-arrange";
-import ButtonAnswer from '../../components/answer-button';
+import RadioAnswer from '@components/answer-radio';
+import ArrangeItem from "@components/answer-arrange";
+import ButtonAnswer from '@components/answer-button';
 import {AnswerContainer, AnswerGrid, AnswerArrange, AnswerPanel } from './styles.js'
 
 export const AnswerComponent = {

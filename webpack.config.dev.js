@@ -12,7 +12,20 @@ module.exports = {
     },
     mode: 'development', 
     resolve: {
-        extensions:['.js','.jsx']
+        extensions:['.js','.jsx'],
+        alias: {
+            '@utils': path.resolve(__dirname, 'src/utils/'),
+            '@components': path.resolve(__dirname, 'src/components'),
+            '@containers': path.resolve(__dirname, 'src/containers'),
+            '@context': path.resolve(__dirname, 'src/context'),
+            '@customHooks': path.resolve(__dirname, 'src/custom-hooks'),
+            '@layouts': path.resolve(__dirname, 'src/layouts'),
+            '@pages': path.resolve(__dirname, 'src/pages'),
+            '@reducers': path.resolve(__dirname, 'src/reducers'),
+            '@styles': path.resolve(__dirname, 'src/styles'),
+            '@themes': path.resolve(__dirname, 'src/themes'),
+            '@assets': path.resolve(__dirname, 'src/assets'),
+        }
     },
     module: {
         rules: [

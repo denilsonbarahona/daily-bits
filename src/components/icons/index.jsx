@@ -1,6 +1,6 @@
 import React from "react";
 import {IconStyle} from './styles';
-import {icons} from '../../utils/set-icons';
+import {icons} from '@utils/set-icons';
 
 const Icon = ({iconType})=>{
     

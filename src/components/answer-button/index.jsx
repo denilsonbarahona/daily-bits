@@ -1,7 +1,7 @@
 import React  from "react";
-import {Button} from '../answer-button/styles'
-import Figure from '../../components/Figure'; 
-import { colorThemes } from "../../themes/themes";
+import {Button} from '@components/answer-button/styles'
+import Figure from '@components/Figure'; 
+import { colorThemes } from "@themes/themes";
 
 const ButtonAnswer =({option, src,  setAnswer, answerState})=> {
     

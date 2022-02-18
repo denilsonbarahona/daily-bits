@@ -1,8 +1,8 @@
 import {useReducer} from "react";
-import { InitialState } from "../reducers/initial-state";
+import { InitialState } from "@reducers/initial-state";
 import DO_REQUEST, {COMPLEX_REQUEST} from "../api/API";
-import { DISPATCH_ACTION , SET_FORWARD} from "../reducers/actions";
-import Reducer from "../reducers";
+import { DISPATCH_ACTION , SET_FORWARD} from "@reducers/actions";
+import Reducer from "@reducers";
 
 
 const SimpleRequest = async(SECTION)=>{
