@@ -1,9 +1,9 @@
 import React, {useContext, useEffect} from "react";
 import { useNavigate } from "react-router-dom";
-import Question from "../../components/question";
-import Answers from '../../Containers/answers';
-import AnswerQuestionLayout from "../../layouts/answer-question";
-import AppContext from "../../context"; 
+import Question from "@components/question";
+import Answers from '@containers/answers';
+import AnswerQuestionLayout from "@layouts/answer-question";
+import AppContext from "@context"; 
 import { AnswerComponent } from "./answerComponents";
 
 const QuestionAnswerContainer =({category}) =>{
